@@ -39,7 +39,7 @@ async def filter_incoming_handler(handler):
         pass
 
 
-@register(outgoing=True, pattern=r"^.filter (.*)")
+@register(outgoing=True, pattern=r"^.dimsgans (.*)")
 async def add_new_filter(new_handler):
     """ For .filter command, allows adding new filters in a chat """
     try:
@@ -48,7 +48,7 @@ async def add_new_filter(new_handler):
         await new_handler.edit("`Berjalan Pada Mode Non-SQL!`")
         return
     value = new_handler.pattern_match.group(1).split(None, 1)
-    """ - The first words after .filter(space) is the keyword - """
+    """ - The first words after .dimsgans(space) is the keyword - """
     keyword = value[0]
     try:
         string = value[1]
@@ -75,14 +75,14 @@ async def add_new_filter(new_handler):
     elif new_handler.reply_to_msg_id and not string:
         rep_msg = await new_handler.get_reply_message()
         string = rep_msg.text
-    success = "`Berhasil Menambahkan Filter` **{}** `{}`."
+    success = "`Busett Wokwok` **{}** `{}`."
     if add_filter(str(new_handler.chat_id), keyword, string, msg_id) is True:
         await new_handler.edit(success.format(keyword, 'Disini'))
     else:
         await new_handler.edit(success.format(keyword, 'Disini'))
 
 
-@register(outgoing=True, pattern=r"^.stop (.*)")
+@register(outgoing=True, pattern=r"^.dimsganss (.*)")
 async def remove_a_filter(r_handler):
     """ For .stop command, allows you to remove a filter from a chat. """
     try:
@@ -91,13 +91,13 @@ async def remove_a_filter(r_handler):
         return await r_handler.edit("`Berjalan Pada Mode Non-SQL!`")
     filt = r_handler.pattern_match.group(1)
     if not remove_filter(r_handler.chat_id, filt):
-        await r_handler.edit("`Filter` **{}** `Tidak Ada Disini`.".format(filt))
+        await r_handler.edit("`Buset` **{}** `Gaada Bego`.".format(filt))
     else:
         await r_handler.edit(
-            "`Berhasil Menghapus Filter` **{}** `Disini`.".format(filt))
+            "`UDAH GA ADA COK` **{}** `Disini`.".format(filt))
 
 
-@register(outgoing=True, pattern="^.bersihkanbotfilter (.*)")
+@register(outgoing=True, pattern="^.dimskontll (.*)")
 async def kick_marie_filter(event):
     """ For .bersihkanbotfilter command, allows you to kick all \
         Marie(or her clones) filters from a chat. """
@@ -122,35 +122,34 @@ async def kick_marie_filter(event):
             BOTLOG_CHATID, "Saya Membersihkan Semua Filter Bot Di " + str(event.chat_id))
 
 
-@register(outgoing=True, pattern="^.filters$")
+@register(outgoing=True, pattern="^.goblokk$")
 async def filters_active(event):
     """ For .filters command, lists all of the active filters in a chat. """
     try:
         from userbot.modules.sql_helper.filter_sql import get_filters
     except AttributeError:
         return await event.edit("`Running on Non-SQL mode!`")
-    transact = "`Tidak Ada Filter Apapun Disini.`"
+    transact = "`Alhamdulillah Akun Lu Selamat Tot.`"
     filters = get_filters(event.chat_id)
     for filt in filters:
-        if transact == "`Tidak Ada Filter Apapun Disini.`":
-            transact = "**❃ Daftar Filter Lord Yang Aktif Disini:**\n"
+        if transact == "`Akun Lu Selamat Cok Disini.`":
+            transact = "**❃ Cuman Segini Bang:**\n"
             transact += " ➥ `{}`\n".format(filt.keyword)
         else:
             transact += " ➥ `{}`\n".format(filt.keyword)
 
     await event.edit(transact)
 
-# LORD USERBOT
-# @LORDUSERBOT_GROUP
+# NGENTOT USERBOT
 CMD_HELP.update({
     "filter":
-    "`.filters`\
+    "`.goblokk`\
     \nPenjelasan: Melihat filter lord userbot yang aktif di obrolan.\
-    \n\n`.filter` <keyword> <balasan> atau balas ke pesan ketik .filter <keyword>\
+    \n\n`.dimsgans` <keyword> <balasan> atau balas ke pesan ketik .dimsgans <keyword>\
     \nPenjelasan: Membuat filter di obrolan.\
     \nBot Akan Membalas Jika Ada Yang Menyebut 'keyword' yang dibuat.\
     \nBisa dipake ke media/sticker/vn/file.\
-    \n\n`.stop` <keyword>\
+    \n\n`.` <keyword>\
     \nPenjelasan: Untuk Nonaktifkan Filter.\
     \n\n`.bersihkanbotfilter` <rose>\
     \nPenjelasan: Menghapus semua filter yang ada di bot grup (Saat ini bot yang didukung: Rose.) dalam obrolan."
