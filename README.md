@@ -1,14 +1,3 @@
-<a href="https://cooltext.com"><img src="https://images.coolt
-
-<p align="center">
-  <a href="https://github.com/Zora24/Lord-Userbot/fork">
-    <img src="https://img.shields.io/github/forks/Zora24/Lord-Userbot?label=Fork&style=social">
-    
-  </a>
-  <a href="https://github.com/Zora24/Lord-Userbot">
-    <img src="https://img.shields.io/github/stars/Zora24/Lord-Userbot?style=social">
-  </a>
-</p>  
 
 # Lord Userbot
 ![Lord Userbot Logo](https://telegra.ph/file/1c24cf04490f65ea3081e.jpg)
