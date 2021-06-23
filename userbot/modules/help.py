@@ -14,8 +14,8 @@ from userbot.events import register
 
 modules = CMD_HELP
 
-# EDIT BY ALVIN / @LIUALVINAS FOR LORD USERBOT
-# CREDIT EDIT FROM LORD
+# EDIT BY DIMS / @DIMS_WHYDI FOR NGRNTOT USERBOT
+# CREDIT EDIT FROM TOT
 # JANGAN HAPUS!!!
 
 @register(outgoing=True, pattern="^.help(?: |$)(.*)")
@@ -26,7 +26,7 @@ async def help(lord):
         if args in CMD_HELP:
             await lord.edit(str(CMD_HELP[args]))
         else:
-            await lord.edit("**Maaf Lord, Saya Tidak Punya Perintah Itu ツ**")
+            await lord.edit("**Maaf Tot, Saya Tidak Punya Perintah Itu GOBLOK**")
             await asyncio.sleep(200)
             await lord.delete()
     else:
@@ -61,8 +61,6 @@ async def help(lord):
                         "`transform`  `update`  `download`  `getid`  `waifu`  `wallpaper`  `weather`\n\n"
                         "**⚡️ MODULES 15:**\n"
                         "`webupload`  `welcome`  `whois`  `ping`  `sinyal`  `xiaomi`  `zipfile`")
-        await lord.reply("\n**CARA MENGGUNAKAN,** **CONTOH:**\n**KETIK** `.help afk` **UNTUK INFORMASI MODULES**\n**GROUP SUPPORT:** [TEKAN](t.me/LordUserbot_Group)")
+        await lord.reply("\n**CARA MENGGUNAKAN,** **CONTOH:**\n**KETIK** `.kontol afk` **UNTUK INFORMASI MODULES**\n**GROUP SUPPORT:** [TEKAN](t.me/cari_pacar_doi_indonesia)")
         await asyncio.sleep(1000)
         await lord.delete()
-
-# ALVIN GANTENG
