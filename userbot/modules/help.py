@@ -32,7 +32,7 @@ async def help(lord):
     else:
         await lord.edit("⚡")
         await lord.edit("**⚡️ MODULES 1:**\n"
-                        "`admin`  `adzan`  `afk`  `gabut`  `vip`  `animasi`  `android`  `anime`  `anti_spambot`  `aria`  `ascii`\n\n"
+                        "`admin`  `adzan`  `fakeaction`  `afk`  `gabut`  `vip`  `animasi`  `android`  `anime`  `anti_spambot`  `aria`  `ascii`\n\n"
                         "**⚡️ MODULES 2:**\n"
                         "`blacklist`  `carbon`   `chat`  `mutechat`  `covid`  `membuat`  `deepfry`  `emojigames`\n\n"
                         "**⚡️ MODULES 3:**\n"
