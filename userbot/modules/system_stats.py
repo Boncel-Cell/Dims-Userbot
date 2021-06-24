@@ -277,7 +277,9 @@ async def amireallyalive(alive):
         f"❃ **Python**   \n   ➥ `Versi {python_version()}` \n"
         f"❃ **Versi Bot**\n   ➥ `{BOT_VER}` \n"
         f"❃ **Modul**    \n   ➥ `{len(modules)}` \n\n"
-        f"❃ **Repo Userbot:** [Lord-Userbot](https://github.com/Boncel-Cell/Dims-Userbot)\n❃ **Grup Userbot: **[Tekan](t.me/SharingUserbot)\n❃ **Pemilik:** [Dims](t.me/Dims_whydi)\n"
+        f"❃ **Repo Userbot:** [Dims-Userbot](https://github.com/Boncel-Cell/Dims-Userbot)\n"
+        f"❃ **Grup        :** [Tekan](t.me/SharingUserbot)\n"
+        f"❃ **Owner       :** [Dims](t.me/Dims_whydi)\n"
         f"**▬▬▬▬▬▬❙۩★۩❙▬▬▬▬▬▬**")
     if ALIVE_LOGO:
         try:
@@ -316,7 +318,11 @@ async def amireallyalive(alive):
         f"┣|• `Bot Ver  :`{BOT_VER} \n"
         f"┣|• `Modules  :`{len(modules)} Modules \n"
         f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
-        f"[Repo](https://github.com/Boncel-Cell/Dims-Userbot) | [Grup Support](t.me/Cari_pacar_doi_indonesia) | [Owner](t.me/dims_whydi)")
+        f"[Repo](https://github.com/Boncel-Cell/Dims-Userbot) \n"
+        f"[Grup](t.me/Cari_pacar_doi_indonesia) \n"
+        f"[Channel](t.me/golden_quotes_indonesia) \n"
+        f"[Owner](t.me/dims_whydi) \n
+        f"[Instagram](https://instagram.com/dimswhydi_)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
