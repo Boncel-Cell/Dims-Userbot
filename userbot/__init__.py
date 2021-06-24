@@ -167,7 +167,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Lord-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Dims-Userbot")
 
 # Bot version
 BOT_VER = os.environ.get("BOT_VER", "4.0")
@@ -402,7 +402,7 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
-                    text="{}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul Lord Userbot:** \n".format(
+                    text="{}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul Dims Userbot:** \n".format(
                         "**♛ Dims-Userbot**",
                         len(dugmeler),
                     ),
@@ -446,7 +446,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"Harap Deploy Lord Userbot Anda Sendiri, Jangan Menggunakan Milik {ALIVE_NAME} ツ"
+                reply_pop_up_alert = f"Harap Deploy Dims Userbot Anda Sendiri, Jangan Menggunakan Milik {ALIVE_NAME} ツ"
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
