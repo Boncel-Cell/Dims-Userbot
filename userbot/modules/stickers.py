@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# LORD - USERBOT
+# DIMS - USERBOT
 
 import io
 import math
@@ -71,9 +71,9 @@ async def kang(args):
             is_anim = True
             photo = 1
         else:
-            return await args.edit("`File Tidak Didukung Lord!`")
+            return await args.edit("`File Tidak Didukung!`")
     else:
-        return await args.edit("`Maaf Lord, Saya Gagal Mengambil Sticker Ini!`")
+        return await args.edit("`Maaf, Saya Gagal Mengambil Sticker Ini!`")
 
     if photo:
         splat = args.text.split()
@@ -189,7 +189,7 @@ async def kang(args):
                 rsp = await conv.get_response()
                 if "Sorry, the file type is invalid." in rsp.text:
                     return await args.edit(
-                        "`Maaf Lord, Saya Gagal Menambahkan Sticker, Gunakan` @Stickers ` Bot Untuk Menambahkan Sticker Anda.`"
+                        "`Maaf, Saya Gagal Menambahkan Sticker, Gunakan` @Stickers ` Bot Untuk Menambahkan Sticker Anda.`"
                     )
                 await conv.send_message(emoji)
                 # Ensure user doesn't get spamming notifications
@@ -244,7 +244,7 @@ async def kang(args):
                 await bot.send_read_acknowledge(conv.chat_id)
 
         await args.edit(
-            f"**Berhasil Menambahkan Sticker Ke Pack, Tekan** **[Lord Sticker](t.me/addstickers/{packname})** **Untuk Melihat Pack Anda**",
+            f"**Berhasil Menambahkan Sticker Ke Pack, Tekan** **[Dims Sticker](t.me/addstickers/{packname})** **Untuk Melihat Pack Anda**",
             parse_mode="md",
         )
 
@@ -332,7 +332,7 @@ async def sticker_to_png(sticker):
     try:
         img.document.attributes[1]
     except Exception:
-        await sticker.edit("`Maaf Lord, Ini Bukanlah Sticker`")
+        await sticker.edit("`Maaf, Ini Bukanlah Sticker`")
         return
 
     with io.BytesIO() as image:
@@ -347,7 +347,7 @@ async def sticker_to_png(sticker):
             await sticker.delete()
     return
 
-# LORD - USERBOT
+# DIMS - USERBOT
 
 CMD_HELP.update(
     {
