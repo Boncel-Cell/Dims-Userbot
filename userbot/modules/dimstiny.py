@@ -1,10 +1,10 @@
-# Port By LiuAlvinas/Alvin For Lord Userbot From Ultroid, Thanks
+# Port By Dimswhydi/Dims For Dims Userbot From Ultroid, Thanks
 # Based Plugins
 # Fixed By ManusiaRakitann/Koala
 # Dont Remove
 
 
-# Alvin Ganteng
+# Dims Ganteng
 
 from PIL import Image
 import cv2
@@ -19,7 +19,7 @@ from userbot import CMD_HELP, bot
 async def ultiny(event):
     reply = await event.get_reply_message()
     if not (reply and (reply.media)):
-        await event.edit("`Lord, Mohon Balas Ke Sticker`")
+        await event.edit("`Mohon Balas Ke Sticker`")
         return
     xx = await event.edit("`Memproses Tiny....`")
     ik = await bot.download_media(reply)
@@ -87,8 +87,8 @@ async def ultiny(event):
     os.remove(file)
     os.remove(ik)
 
-# Port By Alvin Ganteng/liualvinas
-# Lord - Userbot
+# Port By Dims Ganteng/Dimswhydi
+# Dimsb- Userbot
 
 CMD_HELP.update({"tiny": "`.tiny`\
     \nPenjelasan: Untuk Memperkecil Sticker."})
