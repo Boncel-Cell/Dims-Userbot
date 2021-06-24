@@ -1,7 +1,7 @@
 # frm Ultroid
 # port by Koala @manusiarakitann
-# @LordUserbot_Group
-# Alvin Ganteng
+# @DimsUserbotSupport
+# Dims Ganteng
 
 from userbot.events import register
 from userbot import CMD_HELP, bot
@@ -32,5 +32,5 @@ async def gcast(event):
 CMD_HELP.update(
     {
         "gcast": "`.gcast <pesan>`\
-    \nPenjelasan: Global Broadcast mengirim pesan ke Seluruh Grup yang Lord Masuki."
+    \nPenjelasan: Global Broadcast mengirim pesan ke Seluruh Grup yang Anda Masuki."
     })
