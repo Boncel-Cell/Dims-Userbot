@@ -40,7 +40,7 @@ async def help(lord):
                         "**⚡️ MODULES 4:**\n"
                         "`glitch`  `gps`  `hash`  `base64`  `hentai`  `heroku`  `id`  `imgmeme`  `kekuatan`\n\n"
                         "**⚡️ MODULES 5:**\n"
-                        "`lastfm`  `locks`  `lord`  `aeshtetic`  `deteksi`  `lordfun`  `lordhelper`  `hazmat`\n\n"
+                        "`lastfm`  `locks`  `vcplugin`  `fakeaction`  `lord`  `aeshtetic`  `deteksi`  `lordfun`  `lordhelper`  `hazmat`\n\n"
                         "**⚡️ MODULES 6:**\n"
                         "`instagram`  `amongus`  `lordmemes`  `misc`  `app`  `undelete`  `grab`  `clone`\n\n"
                         "**⚡️ MODULES 7:**\n"
