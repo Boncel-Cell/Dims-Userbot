@@ -21,17 +21,17 @@ modules = CMD_HELP
 @register(outgoing=True, pattern="^.help(?: |$)(.*)")
 async def help(lord):
     """ For .help command,"""
-    args = dims.pattern_match.group(1).lower()
+    args = lord.pattern_match.group(1).lower()
     if args:
         if args in CMD_HELP:
-            await dims.edit(str(CMD_HELP[args]))
+            await lord.edit(str(CMD_HELP[args]))
         else:
             await dims.edit("**Maaf Tot, Saya Tidak Punya Perintah Itu GOBLOK**")
             await asyncio.sleep(200)
             await lord.delete()
     else:
-        await dims.edit("🖕")
-        await dims.edit("**🖕 MODULES 1:**\n"
+        await lord.edit("🖕")
+        await lord.edit("**🖕 MODULES 1:**\n"
                         "`admin`  `adzan`  `fakeaction`  `afk`  `gabut`  `vip`  `animasi`  `android`  `anime`  `anti_spambot`  `aria`  `ascii`\n\n"
                         "**🖕 MODULES 2:**\n"
                         "`blacklist`  `carbon`   `chat`  `mutechat`  `covid`  `membuat`  `deepfry`  `emojigames`\n\n"
@@ -61,6 +61,6 @@ async def help(lord):
                         "`transform`  `update`  `download`  `getid`  `waifu`  `wallpaper`  `weather`\n\n"
                         "**🖕 MODULES 15:**\n"
                         "`webupload`  `welcome`  `whois`  `ping`  `sinyal`  `xiaomi`  `zipfile`")
-        await dims.reply("\n**CARA MENGGUNAKAN,** **CONTOH:**\n**KETIK** `.help afk` **UNTUK INFORMASI MODULES**\n**GROUP SUPPORT:** @cari_pacar_doi_indonesia")
+        await lord.reply("\n**CARA MENGGUNAKAN,** **CONTOH:**\n**KETIK** `.help afk` **UNTUK INFORMASI MODULES**\n**GROUP SUPPORT:** @SharingUserbot")
         await asyncio.sleep(1000)
-        await dims.delete()
+        await lord.delete()
