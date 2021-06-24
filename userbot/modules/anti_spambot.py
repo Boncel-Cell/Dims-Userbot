@@ -4,7 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 
-# LORD USERBOT
+# DIMS USERBOT
 from asyncio import sleep
 
 from requests import get
@@ -192,8 +192,8 @@ async def ANTI_SPAMBOTS(welcm):
     except ValueError:
         pass
 
-# LORD USERBOT
-# ALVIN GANTENG
+# DIMS USERBOT
+# DIMS GANTENG
 
 CMD_HELP.update(
     {
