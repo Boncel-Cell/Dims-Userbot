@@ -1,5 +1,5 @@
 # Based Plugins
-# Ported for Lord-Userbot By liualvinas/Alvin
+# Ported for Dims Userbot By Dimswhydi/Dims
 
 from telethon import events
 from userbot.events import register
