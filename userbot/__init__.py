@@ -101,7 +101,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/Boncel-Cell/kontoll.git")
+    "https://github.com/Boncel-Cell/Dims-Userbot.git")
 UPSTREAM_REPO_BRANCH = os.environ.get(
     "UPSTREAM_REPO_BRANCH", "Dims-Userbot")
 
@@ -179,8 +179,7 @@ ALIVE_USERNAME = os.environ.get("ALIVE_USERNAME", None)
 S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive logo
-ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/e9fd37b93e84a6fe87bc0.jpg"
+ALIVE_LOGO = os.environ.get("ALIVE_LOGO") or "https://telegra.ph/file/e9fd37b93e84a6fe87bc0.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -390,7 +389,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("Dims-Userbot, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/Boncel-Cell/kontoll.git)")
+                await event.reply("Dims-Userbot, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/Boncel-Cell/Dims-Userbot)")
             else:
                 await event.reply(f"`Hai {ALIVE_NAME}\n\nApa Kabarmu?`")
 
@@ -419,12 +418,12 @@ with bot:
             else:
                 result = builder.article(
                     "**Dims✗Userbot**",
-                    text="""**Anda Bisa Membuat Dims Userbot Anda Sendiri Dengan Cara:** [Tekan Disini](https://github.com/Boncel-Cell/kontoll)""",
+                    text="""**Anda Bisa Membuat Dims Userbot Anda Sendiri Dengan Cara:** [Tekan Disini](https://github.com/Boncel-Cell/Dims-Userbot)""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "Repo Dims-Userbot",
-                                "https://github.com/Boncel-Cell/kontoll"),
+                                "https://github.com/Boncel-Cell/Dims-Userbot"),
                             custom.Button.url(
                                 "Pemilik Repo",
                                 "t.me/Dims_whydi")],
@@ -496,7 +495,7 @@ with bot:
                     )
                 )
             else:
-                reply_pop_up_alert = f"Harap Deploy Dims Userbot Anda Sendiri, Jangan Menggunakan Milik {ALIVE_NAME} ツ"
+                reply_pop_up_alert = f"Harap Deploy Dims-Userbot Anda Sendiri, Jangan Menggunakan Milik {ALIVE_NAME} ツ"
 
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
