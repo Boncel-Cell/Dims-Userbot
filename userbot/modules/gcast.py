@@ -1,5 +1,4 @@
 # frm Ultroid
-# port by Koala @manusiarakitann
 # @DimsUserbotSupport
 # Dims Ganteng
 
@@ -28,7 +27,7 @@ async def gcast(event):
                 er += 1
     await kk.edit(f"**Berhasil Mengirim Pesan Ke** `{done}` **Grup, Gagal Mengirim Pesan Ke** `{er}` **Grup**")
 
-# Alvin Ganteng
+# Dims Ganteng
 CMD_HELP.update(
     {
         "gcast": "`.gcast <pesan>`\
