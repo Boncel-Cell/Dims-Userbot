@@ -316,7 +316,7 @@ async def amireallyalive(alive):
         f"┣|• `Bot Ver  :`{BOT_VER} \n"
         f"┣|• `Modules  :`{len(modules)} Modules \n"
         f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
-        f"[Repo](https://github.com/Boncel-Cell/Dims-Userbot) | [Grup Support](t.me/SharingUserbot) | [Owner](t.me/dimswhydi)")
+        f"[Repo](https://github.com/Boncel-Cell/Dims-Userbot) | [Grup Support](t.me/SharingUserbot) | [Owner](t.me/dims_whydi)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
