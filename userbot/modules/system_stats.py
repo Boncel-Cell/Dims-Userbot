@@ -279,7 +279,7 @@ async def amireallyalive(alive):
         f"❃ **Modul**    \n   ➥ `{len(modules)}` \n\n"
         f"❃ **Repo Userbot:** [Dims-Userbot](https://github.com/Boncel-Cell/Dims-Userbot)\n"
         f"❃ **Grup        :** [Tekan](t.me/SharingUserbot)\n"
-        f"❃ **Owner       :** [Dims](t.me/Dims_whydi)\n"
+        f"❃ **Owner       :** [Dims](t.me/Dims_whydi)")
         f"**▬▬▬▬▬▬❙۩★۩❙▬▬▬▬▬▬**")
     if ALIVE_LOGO:
         try:
@@ -321,7 +321,7 @@ async def amireallyalive(alive):
         f"[Repo](https://github.com/Boncel-Cell/Dims-Userbot) \n"
         f"[Grup](t.me/Cari_pacar_doi_indonesia) \n"
         f"[Channel](t.me/golden_quotes_indonesia) \n"
-        f"[Owner](t.me/dims_whydi) \n
+        f"[Owner](t.me/dims_whydi) \n"
         f"[Instagram](https://instagram.com/dimswhydi_)")
     if ALIVE_LOGO:
         try:
