@@ -3,7 +3,7 @@
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
 #
-# System Stats Lord-Userbot
+# System Stats Dims-Userbot
 
 import asyncio
 from asyncio import create_subprocess_exec as asyncrunapp
@@ -164,7 +164,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**Lord-Userbot Versi:** \n "
+            "**☛**Dims-Userbot Versi:** \n "
             f"{verout}"
             "\n**☛**Revisi:**\n "
             f"{revout}"
@@ -223,12 +223,12 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:tede|lord)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:dims|dimss)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`I'M ALIVE!`")
-    await alive.edit("⚡")
+    await alive.edit("🖕")
     output = (
         f" **┗┓DIMS USERBOT┏┛** \n"
         f"\n__**{DIMS_TEKS_KUSTOM}**__\n"
@@ -243,7 +243,7 @@ async def amireallyalive(alive):
         f"┣[• `Bot Ver  :`{BOT_VER} \n"
         f"┣[• `Modules  :`{len(modules)} Modules \n"
         f"┗━━━━━━━━━━━━━━━━━━━\n"
-        f" ➥ `ᴛᴇᴅᴇ ɢᴀɴᴛᴇɴɢ`")
+        f" ➥ `Dims Ganteng`")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -270,14 +270,14 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**▬▬▬▬▬▬❙۩♛۩❙▬▬▬▬▬▬**\n"
-        f"     **♕ LORD USERBOT ♕** \n\n"
-        f"❃ **Lord**     \n   ➥ `{DEFAULTUSER}` \n"
+        f"     **♕ DIMS USERBOT ♕** \n\n"
+        f"❃ **Babu**     \n   ➥ `{DEFAULTUSER}` \n"
         f"❃ **Username** \n   ➥ `@{user.username}` \n"
         f"❃ **Telethon** \n   ➥ `Versi {version.__version__}` \n"
         f"❃ **Python**   \n   ➥ `Versi {python_version()}` \n"
         f"❃ **Versi Bot**\n   ➥ `{BOT_VER}` \n"
         f"❃ **Modul**    \n   ➥ `{len(modules)}` \n\n"
-        f"❃ **Repo Userbot:** [Lord-Userbot](https://github.com/Zora24/Lord-Userbot)\n❃ **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n❃ **Pemilik:** [Alvin](t.me/liualvinas)\n"
+        f"❃ **Repo Userbot:** [Lord-Userbot](https://github.com/Boncel-Cell/Dims-Userbot)\n❃ **Grup Userbot: **[Tekan](t.me/SharingUserbot)\n❃ **Pemilik:** [Dims](t.me/Dims_whydi)\n"
         f"**▬▬▬▬▬▬❙۩★۩❙▬▬▬▬▬▬**")
     if ALIVE_LOGO:
         try:
@@ -304,11 +304,11 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`I'M ALIVE!`")
-    await alive.edit("⚡")
+    await alive.edit("🖕")
     output = (
-        f"**♕ LORD USERBOT ♕** \n\n"
+        f"**♕ DIMS USERBOT ♕** \n\n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣|• `Lord     :`{DEFAULTUSER} \n"
+        f"┣|• `Babu     :`{DEFAULTUSER} \n"
         f"┣|• `Username :`@{user.username} \n"
         f"┣|• `Telethon :`Ver {version.__version__} \n"
         f"┣|• `Python   :`Ver {python_version()} \n"
@@ -316,7 +316,7 @@ async def amireallyalive(alive):
         f"┣|• `Bot Ver  :`{BOT_VER} \n"
         f"┣|• `Modules  :`{len(modules)} Modules \n"
         f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
-        f"[Repo](https://github.com/Zora24/Lord-Userbot) | [Grup Support](t.me/LordUserbot_Group) | [Owner](t.me/liualvinas)")
+        f"[Repo](https://github.com/Boncel-Cell/Dims-Userbot) | [Grup Support](t.me/SharingUserbot) | [Owner](t.me/dimswhydi)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
