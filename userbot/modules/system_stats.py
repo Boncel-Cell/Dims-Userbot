@@ -278,8 +278,8 @@ async def amireallyalive(alive):
         f"❃ **Versi Bot**\n   ➥ `{BOT_VER}` \n"
         f"❃ **Modul**    \n   ➥ `{len(modules)}` \n\n"
         f"❃ **Repo Userbot:** [Dims-Userbot](https://github.com/Boncel-Cell/Dims-Userbot)\n"
-        f"❃ **Grup        :** [Tekan](t.me/SharingUserbot) \n"
-        f"❃ **Owner       :** [Dims](t.me/Dims_whydi) \n
+        f"❃ **Grup        :** [Tekan](t.me/SharingUserbot)\n"
+        f"❃ **Owner       :** [Dims](t.me/Dims_whydi)\n"
         f"**▬▬▬▬▬▬❙۩★۩❙▬▬▬▬▬▬**")
     if ALIVE_LOGO:
         try:
