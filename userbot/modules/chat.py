@@ -108,7 +108,7 @@ async def log(log_text):
 @register(outgoing=True, pattern="^.kickme$")
 async def kickme(leave):
     """ Basically it's .kickme command """
-    await leave.edit("`Lord Telah Meninggalkan Grup ツ`")
+    await leave.edit("`Babu Dims Telah Meninggalkan Grup ツ`")
     await leave.client.kick_participant(leave.chat_id, 'me')
 
 
@@ -136,7 +136,7 @@ async def mute_chat(mute_e):
         return
     await mute_e.edit(str(mute_e.chat_id))
     kread(str(mute_e.chat_id))
-    await mute_e.edit("`Ssshssh Lord Telah Membisukan Obrolan!`")
+    await mute_e.edit("`Ssshssh Anda Telah Membisukan Obrolan!`")
     await sleep(2)
     await mute_e.delete()
     if BOTLOG:
@@ -445,7 +445,7 @@ CMD_HELP.update({
 \nPenjelasan: Menambahkan pengguna ke obrolan, bukan ke pesan pribadi. "
 })
 
-# Lord Userbot
+# Dims Userbot
 CMD_HELP.update({"mutechat": "**Modules:** __Mute Chat__\
 \n\n**Perintah:** `.mutechat`\
 \n**Penjelasan:** Memungkinkan Anda Membisukan Obrolan Apapun.\
