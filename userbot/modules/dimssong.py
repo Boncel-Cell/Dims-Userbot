@@ -125,9 +125,8 @@ Artis - {}
     )
     os.remove(f"{rip_data['id']}.mp3")
 
-# For Lord - Userbot
-# Piki Ganteng
-# Tapi Gantengan Alvin
+# For Dims - Userbot
+# Dims Ganteng
 
 CMD_HELP.update({"song": "**Modules:** __Song__\n\n**Perintah:** `.song <judul>`"
                  "\n**Penjelasan:** Mendownload Lagu"})
