@@ -1,29 +1,29 @@
-<a href="https://cooltext.com"><img src="https://images.cooltext.com/5501763.gif" width="473" height="82" alt="LORD USERBOT" /></a>
+<a href="https://cooltext.com"><img src="https://telegra.ph/file/e92710c836bc728a84d97.gif" width="473" height="82" alt="LORD USERBOT" /></a>
 
 
 <p align="center">
-  <a href="https://github.com/Zora24/Lord-Userbot/fork">
-    <img src="https://img.shields.io/github/forks/Zora24/Lord-Userbot?label=Fork&style=social">
+  <a href="https://github.com/Boncel-Cell/kontoll/fork">
+    <img src="https://img.shields.io/github/forks/Boncel-Cell/kontoll?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/Zora24/Lord-Userbot">
-    <img src="https://img.shields.io/github/stars/Zora24/Lord-Userbot?style=social">
+  <a href="https://github.com/Boncel-Cell/kontoll">
+    <img src="https://img.shields.io/github/stars/Boncel-Cell/kontol?style=social">
   </a>
 </p>  
 
-# Lord Userbot
-![Lord Userbot Logo](https://telegra.ph/file/62dc59b2013a48f9cc8f3.jpg)
+# Dims-Userbot
+![Dims Userbot Logo](https://telegra.ph/file/e9fd37b93e84a6fe87bc0.jpg)
 
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
 
-### Repo Lord Userbot
-Repo Yang Dibuat [Alvin](https://t.me/liualvinas) Dari Berbagai Repo Userbot Github 
+### Repo Dims Userbot
+Repo Yang Dibuat [Dims](https://t.me/Dims_whydi) Dari Berbagai Repo Userbot Github 
 
 
 ### CARA MENDAPATKAN STRING SESSON
 
-Caranya Pergi Ke Grup Support Lord-Userbot Lalu Ketik #String [TEKAN DISINI](https://t.me/LordUserbot_Group) Untuk Masuk Ke Grup Support
+[TEKAN DISINI](https://replit.com/@BoncelCell/stringen#main.py)
 
 ## Bagaimana Cara Deploy?
 
@@ -40,11 +40,11 @@ Caranya Pergi Ke Grup Support Lord-Userbot Lalu Ketik #String [TEKAN DISINI](htt
 
   > Terakhir Hidupkan Dyno Lalu Check Logs (settings -> view logs) Jika Berhasil Enjoy :)
 ```
-Atau Bisa Gabung Ke Grup Lord Userbot -> [TEKAN DISINI](https://t.me/LordUserbot_Group)
-## <p align="center">DEPLOY LORD-USERBOT</p>
+Atau Bisa Gabung Ke Grup Dims -> [TEKAN DISINI](https://t.me/Cari_Pacar_doi_indonesia)
+## <p align="center">DEPLOY DIMS-USERBOT</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Zora24/Lord-Userbot/tree/Lord-Userbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Boncel-Cell/kontoll/tree/main"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
