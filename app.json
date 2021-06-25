@@ -1,7 +1,7 @@
 {
   "name": "Dims-Userbot",
   "description": "[Dims-Userbot] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/e9fd37b93e84a6fe87bc0.jpg",
+  "logo": "https://telegra.ph/file/22f40b9b54fabf417ddda.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Boncel-Cell/kontoll",
+  "repository": "https://github.com/Boncel-Cell/Dims-Userbot",
   "telegram": "https://t.me/dims_whydi",
   "success_url": "https://t.me/dims_whydi",
   "stack": "container",
