@@ -12,7 +12,7 @@
 </p>  
 
 # Dims-Userbot
-![Dims Userbot Logo](https://telegra.ph/file/e9fd37b93e84a6fe87bc0.jpg)
+![Dims Userbot Logo](https://telegra.ph/file/22f40b9b54fabf417ddda.jpg)
 
 <h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
 <p align="center">&nbsp;</p>
