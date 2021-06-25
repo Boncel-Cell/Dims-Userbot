@@ -93,7 +93,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's something for you to read:\n"
-        "\n[Lord-Userbot Repo](https://github.com/Zora24/Lord-Userbot/blob/Lord-Userbot/README.md)"
+        "\n[Dims-Userbot Repo](https://github.com/Boncel-Cell/Dims-Userbot/blob/Dims-Userbot/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Setup Guide - Google Drive](https://telegra.ph/How-To-Setup-GDrive-11-02)"
         "\n[Setup Guide - LastFM Module](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)"
@@ -120,9 +120,14 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "❃ **╭✠╼━━━━━━❖━━━━━━━✠╮**\n            [Dims-Userbot](https://github.com/Boncel-Cell/Dims-Userbot)\n╰✠╼━━━━━━❖━━━━━━━✠╯\n•PEMILIK         : [Dims](t.me/dims_whydi)\n•CHANNEL      : [Channel](t.me/Golden_Quotes_Indomesia)\n•GROUP           : [Group](t.me/cari_pacar_doi_indonesia)\n•INSTAGRAM  :  [Dims](Instagram.com/dimswhydi_)"
-      )
-
+        "╭‒─‒──────────‒─‒╮\n"
+        "│                   ʀᴇᴘᴏ\n"
+        "│       [⚡Dims-Userbot⚡](https://github.com/Boncel-Cell/Dims-UserBot)\n"
+        "├‒─‒──────────‒─‒╯\n"
+        "│🔰 **ᴏᴡɴᴇʀ :** [Dims](t.me/dims_whydi)\n"
+        "╰‒─‒──────────‒─‒╯\n"
+        "  𝗟𝗶𝗰𝗲𝗻𝘀𝗲 : [GPL-3.0 License](https://github.com/Boncel-Cell/Dims-UserBot/blob/Dims-UserBot/LICENSE)"
+    )
 
 @register(outgoing=True, pattern="^.raw$")
 async def raw(event):
