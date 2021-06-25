@@ -418,7 +418,7 @@ async def _(event):
         else:
             await event.edit("File Tidak ditemukan{}".format(input_str))
     else:
-        await event.edit("`Mohon Balas Ke Media Lord`")
+        await event.edit("`Mohon Balas Ke Media Tolol`")
 
 
 @register(outgoing=True, pattern="^.grab(?: |$)(.*)")
@@ -768,7 +768,7 @@ async def thicc(bolded):
         get = await bolded.get_reply_message()
         args = get.text
     if not args:
-        await bolded.edit("`Lord, Teks Apa Yang Harus Saya Bold Kan?`")
+        await bolded.edit("`Teks Apa Yang Harus Saya Bold Kan?`")
         return
     string = ''.join(args).lower()
     for normiecharacter in string:
@@ -815,7 +815,7 @@ async def mediv(medievalx):
         get = await medievalx.get_reply_message()
         args = get.text
     if not args:
-        await medievalx.edit("`Lord, Teks Apa Yang Harus Saya Medibold Kan?`")
+        await medievalx.edit("`Teks Apa Yang Harus Saya Medibold Kan?`")
         return
     string = ''.join(args).lower()
     for normiecharacter in string:
@@ -862,7 +862,7 @@ async def doublex(doublestrucktx):
         get = await doublestrucktx.get_reply_message()
         args = get.text
     if not args:
-        await doublestrucktx.edit("`Lord, Teks Apa Yang Harus Saya Double Struck Kan?`")
+        await doublestrucktx.edit`Teks Apa Yang Harus Saya Double Struck Kan?`")
         return
     string = ''.join(args).lower()
     for normiecharacter in string:
@@ -909,7 +909,7 @@ async def cursive2(cursivebolded):
         get = await cursivebolded.get_reply_message()
         args = get.text
     if not args:
-        await cursivebolded.edit("`Lord, Teks Apa Yang Harus Saya Cursive Bold Kan?`")
+        await cursivebolded.edit("`Teks Apa Yang Harus Saya Cursive Bold Kan?`")
         return
     string = ''.join(args).lower()
     for normiecharacter in string:
@@ -957,7 +957,7 @@ async def medival22(medivallite):
         get = await medivallite.get_reply_message()
         args = get.text
     if not args:
-        await medivallite.edit("`Lord, Teks Apa Yang Harus Saya Medival Kan?`")
+        await medivallite.edit("Teks Apa Yang Harus Saya Medival Kan?`")
         return
     string = ''.join(args).lower()
     for normiecharacter in string:
@@ -1004,7 +1004,7 @@ async def xcursive(cursivelite):
         get = await cursivelite.get_reply_message()
         args = get.text
     if not args:
-        await cursivelite.edit("`Lord, Teks Apa Yang Harus Saya Cursive Kan?`")
+        await cursivelite.edit("`Teks Apa Yang Harus Saya Cursive Kan?`")
         return
     string = ''.join(args).lower()
     for normiecharacter in string:
@@ -1044,27 +1044,27 @@ CMD_HELP.update({
 \nPenjelasan: Teks Weebify\
 \n\n(`.bold <Teks>`,`.cur <Teks>`,`.curbold <Teks>`,`.medi <Teks>`,`.medibold <Teks>`,`.doublestruck <Teks>`)\
 \nPenjelasan: Buat Teks <Bold,Cursive,Cursivebold,Medival,Medivalbold,Gayishbold>"})
-# LORD USERBOT
+# DIMS USERBOT
 CMD_HELP.update({"app": "**Modules:** __App__\n\n**Perintah:** `.app <nama app>`"
                  "\n**Penjelasan:** Dapatkan Detail Informasi Applikasi"})
-# LORD USERBOT
+# DIMS USERBOT
 CMD_HELP.update({"undelete": "**Modules:** __Undelete__\n\n**Perintah:** `.undlt`"
                  "\n**Penjelasan:** Urungkan Pesan Yang Dihapus Tapi Anda Harus Menjadi Admin"})
-# LORD USERBOT
+# DIMS USERBOT
 CMD_HELP.update({"grab": "**Modules:** __Grab__\n\n**Perintah:** `.grab <jumlah>`"
                  "\n**Penjelasan:** Mengambil Profil, Bisa Balas Ke Pesan Pengguna Lain Untuk Mengambil Profilnya\n\n**WARN:** JANGAN MENYALAH GUNAKAN PERINTAH INI"})
-# LORD USERBOT
+# DIMS USERBOT
 CMD_HELP.update(
     {
         "clone": "**Modules:** __Clone__\n\n**Perintah:** `.clone <username/balas pesan>`"
         "\n**Penjelasan:** Clone Akun Seseorang, Tapi Username Tidak di Clone"
         "\n\n**Perintah:** `.rclone`"
         "\n**Penjelasan:** Mengembalikan Akun Anda Seperti Semula"})
-# LORD USERBOT
+# DIMS USERBOT
 CMD_HELP.update({"glitch": "**Modules:** __Glitch__\n\n**Perintah:** `.glitch <level>`"
                  "\n**Penjelasan:** Balas Ke Media, Memberikan Efek Glicth Ke Media, Level 1 - 8"
                  "\n\n**Perintah:** `.glitchs <level>`"
                  "\n**Penjelasan:** Balas Ke Media, Memberikan Efek Glitch Ke Media, Level 1 - 8\n\n**NOTE:** Jika Tidak Memberikan Level Maka Otomatis Default Memilih Level 2"})
-# LORD USERBOT # ALVIN GANTENG
+# DIMS USERBOT # DIMS GANTENG
 CMD_HELP.update({"randomprofil": "**Modules:** __Random Profil__\n\n**Perintah:** `.randompp`"
                  "\n**Penjelasan:** Mengganti Foto Profil Anda Secara Otomatis, Untuk Menghentikan Perintah Ini Gunakan Perintah `.restart`"})
