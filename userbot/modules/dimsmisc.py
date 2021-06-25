@@ -862,7 +862,7 @@ async def doublex(doublestrucktx):
         get = await doublestrucktx.get_reply_message()
         args = get.text
     if not args:
-        await doublestrucktx.edit`Teks Apa Yang Harus Saya Double Struck Kan?`")
+        await doublestrucktx.edit("`Teks Apa Yang Harus Saya Double Struck Kan?`")
         return
     string = ''.join(args).lower()
     for normiecharacter in string:
@@ -957,7 +957,7 @@ async def medival22(medivallite):
         get = await medivallite.get_reply_message()
         args = get.text
     if not args:
-        await medivallite.edit("Teks Apa Yang Harus Saya Medival Kan?`")
+        await medivallite.edit("`Teks Apa Yang Harus Saya Medival Kan?`")
         return
     string = ''.join(args).lower()
     for normiecharacter in string:
