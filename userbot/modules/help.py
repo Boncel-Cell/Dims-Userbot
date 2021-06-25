@@ -18,6 +18,7 @@ modules = CMD_HELP
 # CREDIT EDIT FROM TOT
 # JANGAN HAPUS!!!
 
+
 @register(outgoing=True, pattern="^.help(?: |$)(.*)")
 async def help(lord):
     """ For .help command,"""
@@ -44,7 +45,7 @@ async def help(lord):
                         "**🖕 MODULES 6:**\n"
                         "`instagram`  `amongus`  `lordmemes`  `misc`  `app`  `undelete`  `grab`  `clone`\n\n"
                         "**🖕 MODULES 7:**\n"
-                        "`randomprofil`  `song`  `tiny`  `tempmail`  `tiktok`  `wordcloud`\n\n" 
+                        "`randomprofil`  `song`  `tiny`  `tempmail`  `tiktok`  `wordcloud`\n\n"
                         "**🖕 MODULES 8:**\n"
                         "`lyrics`  `mega`  `memes`  `memify`  `mentions`  `purge`  `purgeme`  `del`  `edit`\n\n"
                         "**🖕 MODULES 9:**\n"
@@ -56,7 +57,7 @@ async def help(lord):
                         "**🖕 MODULES 12:**\n"
                         "`removebg`  `ocr`  `qrcode`  `barcode`  `paste`  `getpaste`  `nekobin`  `direct`  `screenshot`  `sed`  `snips`  `spam`  `spotifynow`  `ssvideo`\n\n"
                         "**🖕 MODULES 13:**\n"
-                        "`stickers`  `stickers2`  `sysd`  `botver`  `pip`  `alive`  `tag_all`  `telegraph`  `timedate`  `torrent`\n\n" 
+                        "`stickers`  `stickers2`  `sysd`  `botver`  `pip`  `alive`  `tag_all`  `telegraph`  `timedate`  `torrent`\n\n"
                         "**🖕 MODULES 14:**\n"
                         "`transform`  `update`  `download`  `getid`  `waifu`  `wallpaper`  `weather`\n\n"
                         "**🖕 MODULES 15:**\n"
