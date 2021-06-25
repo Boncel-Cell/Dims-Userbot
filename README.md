@@ -52,6 +52,7 @@ Atau Bisa Gabung Ke Grup Dims -> [TEKAN DISINI](https://t.me/Cari_Pacar_doi_indo
 ## Credit
 TERIMAKASIH UNTUK
 
+*   [Mrismanaziz](https://github.com/mrismanaziz) - Man-Userbot
 *   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
 *   [AvinashReddy3108](https://github.com/AvinashReddy3108) - PaperplaneExtended
 *   [Mkaraniya](https://github.com/mkaraniya) & [Dev73](https://github.com/Devp73) - OpenUserBot
