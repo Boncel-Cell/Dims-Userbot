@@ -67,9 +67,9 @@ async def set_afk(afk_e):
     if user.last_name:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name + "【⚒OFF⚒】"))
     else:
-        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name="【⚒OFF⚒】"))
+        await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name="【꧁OFF꧂】"))
     if BOTLOG:
-        await afk_e.client.send_message(BOTLOG_CHATID, "#OFF\n**Lord Telah OFF!**")
+        await afk_e.client.send_message(BOTLOG_CHATID, "#OFF\n**{ALIVE_NAME} Telah OFF!**")
     ISAFK = True
     afk_time = datetime.now()  # pylint:disable=E0602
     raise StopPropagation
@@ -88,7 +88,7 @@ async def type_afk_is_not_true(notafk):
     global afk_end
     user = await bot.get_me()  # pylint:disable=E0602
     last = user.last_name
-    if last and last.endswith("【⚒OFF⚒】"):
+    if last and last.endswith("【꧁OFF꧂】"):
         last1 = last[:-12]
     else:
         last1 = ""
