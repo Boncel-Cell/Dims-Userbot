@@ -26,7 +26,7 @@ from userbot.events import register
 AFKSTR = [
     f"**• Maaf {ALIVE_NAME} Sedang Afk!**",
     f"**• Maaf {ALIVE_NAME} Sedang Afk \n • Tunggu Sampai Dia Kembali Online!**",
-    f"**• Maaf {ALIVE_NAME} Sedang Afk!\n • Tunggulah Sampai Online!**",
+    f"**• {ALIVE_NAME} Sedang Afk!\n • Tunggulah Sampai Online!**",
     f"**• Maaf {ALIVE_NAME} Sedang Afk!**",
 ]
 
@@ -90,7 +90,7 @@ async def type_afk_is_not_true(notafk):
     global afk_end
     user = await bot.get_me()  # pylint:disable=E0602
     last = user.last_name
-    if last and last.endswith("【AFK】"):
+    if last and last.endswith("꧁𝗔𝗙𝗞꧂"):
         last1 = last[:-12]
     else:
         last1 = ""
@@ -98,7 +98,7 @@ async def type_afk_is_not_true(notafk):
     afk_end = back_alive.replace(microsecond=0)
     if ISAFK:
         ISAFK = False
-        msg = await notafk.respond("**ʟᴏʀᴅ ᴛᴇʟᴀʜ ᴋᴇᴍʙᴀʟɪ !!**")
+        msg = await notafk.respond("**Dims Telah Kembali !!**")
         time.sleep(3)
         await msg.delete()
         await notafk.client(UpdateProfileRequest(first_name=user.first_name, last_name=last1))
