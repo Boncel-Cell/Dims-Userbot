@@ -108,7 +108,7 @@ async def log(log_text):
 @register(outgoing=True, pattern="^.kickme$")
 async def kickme(leave):
     """ Basically it's .kickme command """
-    await leave.edit("`GC LU HINA BEGO APA LAGI HIDUP OWNER NYA HINA BET CIH 🚮`")
+    await leave.edit("`GC LU HINA BEGO APA LAGI HIDUP OWNER NYA HINA BET CUIH AMPAS KONTLL 🚮`")
     await leave.client.kick_participant(leave.chat_id, 'me')
 
 
@@ -224,7 +224,7 @@ async def get_chatinfo(event):
             await event.edit("`Grup/Channel Tidak Valid`")
             return None
         except ChannelPrivateError:
-            await event.edit("`Ini Adalah Grup/Channel Privasi Atau Lord Dibanned Dari Sana`")
+            await event.edit("`Ini Adalah Grup/Channel Privasi Atau Anda Dibanned Dari Sana`")
             return None
         except ChannelPublicGroupNaError:
             await event.edit("`Channel Atau Supergrup Tidak Ditemukan`")
