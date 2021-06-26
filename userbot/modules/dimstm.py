@@ -1,8 +1,7 @@
-# BASED FROM ULTROID PORTED FOR LORD USERBOT BY ALVIN / @LIUALVINAS
+# BASED FROM ULTROID PORTED FOR DIMS USERBOT BY DIMS / @DIMS_WHYDI
 # THANKS ULTROID
 # DONT REMOVE THIS
-# ALVIN GANTENG
-# @LORDUSERBOT_GROUP
+# DIMS GANTENG
 
 from telethon import events
 from userbot import CMD_HELP, bot
@@ -31,11 +30,11 @@ async def _(event):
         except YouBlockedUserError:
             await lord.edit("`Mohon buka blokir` @TempMailBot `lalu coba lagi`")
             return
-        await event.edit(f"**LORD TEMPMAIL** ~ `{response.message.message}`\n\n[KLIK DISINI UNTUK VERIFIKASI]({lorduserbot})")
+        await event.edit(f"**ANDA TEMPMAIL** ~ `{response.message.message}`\n\n[KLIK DISINI UNTUK VERIFIKASI]({dimsuserbot})")
 
 
-# Alvin Ganteng
-# Ported For Lord Userbot From Ultroid
+# Dims Ganteng
+# Ported For Dims Userbot From Ultroid
 
 CMD_HELP.update({"tempmail": "**Modules:** __Temp Mail__\n\n**Perintah:** `.tm`"
                  "\n**Penjelasan:** Mendapatkan Email Gratis Dari Temp Mail"})
