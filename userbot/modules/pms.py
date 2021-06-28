@@ -34,7 +34,7 @@ DEF_UNAPPROVED_MSG = (
     "┣[• `PESAN OTOMATIS`\n"
     "┣[• `BY DIMS USERBOT`\n"
     "┗━━━━━━━━━━━━━━━━━━━\n"
-    f"**JANGAN SPAM CHAT!")
+    f"**JANGAN SPAM CHAT!**")
 # =================================================================
 
 
@@ -93,7 +93,7 @@ async def permitpm(event):
             if COUNT_PM[event.chat_id] > 5:
                 await event.respond(
                     "`Anda Telah Di Blokir Karna Melakukan Spam Pesan`\n"
-                    "`Ke Room Chat` {ALIVE_NAME}"
+                    "`Ke Room Chat`"
                 )
 
                 try:
