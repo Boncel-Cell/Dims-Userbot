@@ -44,7 +44,7 @@ Atau Bisa Gabung Ke Grup Dims -> [TEKAN DISINI](https://t.me/Cari_Pacar_doi_indo
 ## <p align="center">DEPLOY DIMS-USERBOT</p>
 
 
-<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Boncel-Cell/kontoll/tree/main"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/Boncel-Cell/Dims-Userbot/tree/main"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
