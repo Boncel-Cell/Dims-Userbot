@@ -227,7 +227,7 @@ async def pipcheck(pip):
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("`I'M ALIVE!`")
+    await alive.edit("`L U  K O N T O L`")
     await alive.edit("🖕")
     output = (
         f" **┗┓DIMS USERBOT┏┛** \n"
@@ -278,7 +278,7 @@ async def amireallyalive(alive):
         f"❃ **Versi Bot**\n   ➥ `{BOT_VER}` \n"
         f"❃ **Modul**    \n   ➥ `{len(modules)}` \n\n"
         f"❃ **Repo Userbot:** [Dims-Userbot](https://github.com/Boncel-Cell/Dims-Userbot)\n"
-        f"❃ **Grup        :** [Tekan](t.me/SharingUserbot)\n"
+        f"❃ **Grup        :** [Tekan](t.me/cari_doi_indonesia)\n"
         f"❃ **Owner       :** [Dims](t.me/Dims_whydi)\n"
         f"**▬▬▬▬▬▬❙۩★۩❙▬▬▬▬▬▬**")
     if ALIVE_LOGO:
@@ -305,7 +305,7 @@ async def amireallyalive(alive):
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("`I'M ALIVE!`")
+    await alive.edit("`L U  K O N T O L`")
     await alive.edit("🖕")
     output = (
         f"**♕ DIMS USERBOT ♕** \n\n"
@@ -319,7 +319,7 @@ async def amireallyalive(alive):
         f"┣|• `Modules  :`{len(modules)} Modules \n"
         f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
         f"[Repo](https://github.com/Boncel-Cell/Dims-Userbot) \n"
-        f"[Grup](t.me/Cari_pacar_doi_indonesia) \n"
+        f"[Grup](t.me/Cari_doi_indonesia) \n"
         f"[Channel](t.me/golden_quotes_indonesia) \n"
         f"[Owner](t.me/dims_whydi) \n"
         f"[Instagram](https://instagram.com/dimswhydi_)")
