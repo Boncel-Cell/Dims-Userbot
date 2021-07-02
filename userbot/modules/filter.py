@@ -60,7 +60,7 @@ async def add_new_filter(new_handler):
         if BOTLOG_CHATID:
             await new_handler.client.send_message(
                 BOTLOG_CHATID, f"#FILTER\nID OBROLAN: {new_handler.chat_id}\nTRIGGER: {keyword}"
-                "\n\n`Pesan Berikut Disimpan Sebagai Data Balasan Filter Untuk Obrolan, Mohon Jangan Menghapusnya`"
+                "\n\n`Pesan Berikut Disimpan Sebagai Data Balasan Filter Untuk Obrolan, Mohon Jangan Menghapusnya Lord`"
             )
             msg_o = await new_handler.client.forward_messages(
                 entity=BOTLOG_CHATID,
@@ -75,7 +75,7 @@ async def add_new_filter(new_handler):
     elif new_handler.reply_to_msg_id and not string:
         rep_msg = await new_handler.get_reply_message()
         string = rep_msg.text
-    success = "`Berhasil Cok` **{}** `{}`."
+    success = "`Berhasil Menambahkan Filter` **{}** `{}`."
     if add_filter(str(new_handler.chat_id), keyword, string, msg_id) is True:
         await new_handler.edit(success.format(keyword, 'Disini'))
     else:
@@ -133,15 +133,15 @@ async def filters_active(event):
     filters = get_filters(event.chat_id)
     for filt in filters:
         if transact == "`Tidak Ada Filter Apapun Disini.`":
-            transact = "**❃ Daftar Filter Anda Yang Aktif Disini:**\n"
+            transact = "**❃ Daftar Filter Lord Yang Aktif Disini:**\n"
             transact += " ➥ `{}`\n".format(filt.keyword)
         else:
             transact += " ➥ `{}`\n".format(filt.keyword)
 
     await event.edit(transact)
 
-# DIMS USERBOT
-# @DimsUserbotSupport
+# LORD USERBOT
+# @LORDUSERBOT_GROUP
 CMD_HELP.update({
     "filter":
     "`.filters`\
