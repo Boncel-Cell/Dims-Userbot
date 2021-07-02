@@ -39,16 +39,16 @@ async def filter_incoming_handler(handler):
         pass
 
 
-@register(outgoing=True, pattern=r"^.addfilter (.*)")
+@register(outgoing=True, pattern=r"^.filter (.*)")
 async def add_new_filter(new_handler):
-    """ For .addfilter command, allows adding new filters in a chat """
+    """ For .filter command, allows adding new filters in a chat """
     try:
-        from userbot.modules.sql_helper.addfilter_sql import add_filter
+        from userbot.modules.sql_helper.filter_sql import add_filter
     except AttributeError:
         await new_handler.edit("`Berjalan Pada Mode Non-SQL!`")
         return
     value = new_handler.pattern_match.group(1).split(None, 1)
-    """ - The first words after .addfilter(space) is the keyword - """
+    """ - The first words after .filter(space) is the keyword - """
     keyword = value[0]
     try:
         string = value[1]
@@ -75,7 +75,7 @@ async def add_new_filter(new_handler):
     elif new_handler.reply_to_msg_id and not string:
         rep_msg = await new_handler.get_reply_message()
         string = rep_msg.text
-    success = "`Berhasil` **{}** `{}`."
+    success = "`Berhasil Menambahkan Filter` **{}** `{}`."
     if add_filter(str(new_handler.chat_id), keyword, string, msg_id) is True:
         await new_handler.edit(success.format(keyword, 'Disini'))
     else:
@@ -133,25 +133,24 @@ async def filters_active(event):
     filters = get_filters(event.chat_id)
     for filt in filters:
         if transact == "`Tidak Ada Filter Apapun Disini.`":
-            transact = "**❃ Daftar Filter Yang Aktif Disini:**\n"
+            transact = "**❃ Daftar Filter Anda Yang Aktif Disini:**\n"
             transact += " ➥ `{}`\n".format(filt.keyword)
         else:
             transact += " ➥ `{}`\n".format(filt.keyword)
 
     await event.edit(transact)
 
-# LORD USERBOT
-# @LORDUSERBOT_GROUP
+
 CMD_HELP.update({
     "filter":
     "`.filters`\
-    \nPenjelasan: Melihat filter lord userbot yang aktif di obrolan.\
-    \n\n`.addfilter` <keyword> <balasan> atau balas ke pesan ketik .filter <keyword>\
-    \nPenjelasan: Membuat filter di obrolan.\
+    \nUsage: Melihat filter userbot yang aktif di obrolan.\
+    \n\n`.filter` <keyword> <balasan> atau balas ke pesan ketik .filter <keyword>\
+    \nUsage: Membuat filter di obrolan.\
     \nBot Akan Membalas Jika Ada Yang Menyebut 'keyword' yang dibuat.\
     \nBisa dipake ke media/sticker/vn/file.\
     \n\n`.stop` <keyword>\
-    \nPenjelasan: Untuk Nonaktifkan Filter.\
-    \n\n`.bersihkanbotfilter` <rose>\
-    \nPenjelasan: Menghapus semua filter yang ada di bot grup (Saat ini bot yang didukung: Rose.) dalam obrolan."
+    \nUsage: Untuk Nonaktifkan Filter.\
+    \n\n`.bersihkanbotfilter` <marie/rose>\
+    \nUsage: Menghapus semua filter yang ada di bot grup (Saat ini bot yang didukung: Marie, Rose.) dalam obrolan."
 })
