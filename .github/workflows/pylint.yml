@@ -29,6 +29,6 @@ jobs:
           commit_message: 'pylint: auto fixes'
           commit_options: '--no-verify --signoff'
           repository: .
-          commit_user_name: vckyou
+          commit_user_name: Boncel-Cell
           commit_user_email: dimas1093013@gnail.com
           commit_author: Boncel-Cell <dimas1093013@gnail.com>
