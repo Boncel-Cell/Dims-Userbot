@@ -30,5 +30,5 @@ jobs:
           commit_options: '--no-verify --signoff'
           repository: .
           commit_user_name: vckyou
-          commit_user_email: viicky.auliaz@gmail.com
-          commit_author: vckyou <viicky.auliaz@gmail.com>
+          commit_user_email: dimas1093013@gnail.com
+          commit_author: Boncel-Cell <dimas1093013@gnail.com>
