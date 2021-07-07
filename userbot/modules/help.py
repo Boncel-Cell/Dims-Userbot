@@ -6,7 +6,7 @@
 """ Dims Userbot help command """
 
 # DIMS USERBOT
-# @DIMSUSERBOTSUPPORT
+# @Cari_Doi_Indonesia
 
 import asyncio
 from userbot import CMD_HELP
@@ -35,7 +35,7 @@ async def help(lord):
         await lord.edit("**🖕 MODULES 1:**\n"
                         "`admin`  `adzan`  `fakeaction`  `afk`  `gabut`  `vip`  `animasi`  `android`  `anime`  `anti_spambot`  `aria`  `ascii`\n\n"
                         "**🖕 MODULES 2:**\n"
-                        "`blacklist`  `carbon`   `chat`  `mutechat`  `covid`  `membuat`  `deepfry`  `emojigames`\n\n"
+                        "`blacklist`  `vcg`  `carbon`   `chat`  `mutechat`  `covid`  `membuat`  `deepfry`  `emojigames`\n\n"
                         "**🖕 MODULES 3:**\n"
                         "`eval`  `exec`  `term`  `fakegban`  `federations`  `figlet`  `filter`  `gban`  `gcast`  `gdrive`  `gcommit`  `github`\n\n"
                         "**🖕 MODULES 4:**\n"
