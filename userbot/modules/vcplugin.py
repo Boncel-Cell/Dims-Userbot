@@ -4,11 +4,11 @@
 # PLease read the GNU Affero General Public License in
 # <https://www.github.com/TeamUltroid/Ultroid/blob/main/LICENSE/>.
 #
-# Ported by @Boncel-Cell
-# FROM Man-Userbot <https://github.com/Boncel-Cell/Dim-Userbot>
-# t.me/Cari_Doi_Indonesia & t.me/Golden_Quotes_Indonesia
+# Ported by @dims_whydi
+# FROM Man-Userbot <https://github.com/Boncel-Cell/Dims-userbot>
+# t.me/cari_doi_indonesia & t.me/golden_quotes_indonesia
 #
-# Kalo mau ngecopas, jangan hapus credit ya Kontol
+# Kalo mau ngecopas, jangan hapus credit ya goblok
 
 from telethon.tl.functions.channels import GetFullChannelRequest as getchat
 from telethon.tl.functions.phone import CreateGroupCallRequest as startvc
@@ -28,7 +28,7 @@ async def get_call(event):
 
 def user_list(l, n):
     for i in range(0, len(l), n):
-        yield l[i: i + n]
+        yield l[i : i + n]
 
 
 @register(outgoing=True, groups_only=True, pattern=r"^\.startvc$")
